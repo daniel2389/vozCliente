@@ -13,7 +13,7 @@ export class ChartPieComponent implements OnInit {
 
   ngOnInit() {
 
-    var ctx = document.getElementById("chart_pie");
+/*     var ctx = document.getElementById("chart_pie");
     var myPieChart = new Chart(ctx, {
       type: 'doughnut',
       data: {
@@ -38,7 +38,7 @@ export class ChartPieComponent implements OnInit {
 
 
       }
-    });
+    }); */
 
 
   }

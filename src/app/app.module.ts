@@ -15,6 +15,7 @@ import { FuentesComponent } from './fuentes/fuentes.component';
 import { AnalisisComponent } from './analisis/analisis.component';
 import { ChartPieComponent } from './chart-pie/chart-pie.component';
 import { FiltrarInfoService } from './filtrar-info.service';
+import { AnalisisSentimientoComponent } from './analisis-sentimiento/analisis-sentimiento.component';
 
 
 @NgModule({
@@ -31,6 +32,7 @@ import { FiltrarInfoService } from './filtrar-info.service';
     FuentesComponent,
     AnalisisComponent,
     ChartPieComponent,
+    AnalisisSentimientoComponent,
 
   ],
   imports: [

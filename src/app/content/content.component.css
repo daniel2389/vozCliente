@@ -6,3 +6,14 @@
     background-color: #d0d0d0;
 }
 
+.posicion_icono{
+    color: black;
+    margin-right: 3px;
+
+}
+
+.customTab a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

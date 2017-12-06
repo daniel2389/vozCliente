@@ -3,12 +3,22 @@
 
   <li class=" tab col s4 customTab">
     <a class="active" href="#test-swipe-1">
+      <i class="material-icons posicion_icono">spellcheck</i>
       <span class="black-text">FUENTES</span>
     </a>
   </li>
   <li class=" tab col s4 customTab">
     <a href="#test-swipe-2">
-      <span class="black-text"> ANALISIS
+      <i class="material-icons posicion_icono">cloud_circle</i>
+      <span class="black-text">NUBE DE PALABRAS
+      </span>
+    </a>
+  </li>
+
+  <li class=" tab col s4 customTab">
+    <a href="#test-swipe-3">
+      <i class="material-icons posicion_icono">insert_emoticon</i>
+      <span class="black-text">ANALISIS DE SENTIMIENTO
       </span>
     </a>
   </li>
@@ -23,5 +33,11 @@
 <div id="test-swipe-2" class="col s12">
   <div>
     <app-analisis></app-analisis>
+  </div>
+</div>
+
+<div id="test-swipe-3" class="col s12">
+  <div>
+    <app-analisis-sentimiento></app-analisis-sentimiento>
   </div>
 </div>
