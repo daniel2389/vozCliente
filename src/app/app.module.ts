@@ -16,6 +16,7 @@ import { AnalisisComponent } from './analisis/analisis.component';
 import { ChartPieComponent } from './chart-pie/chart-pie.component';
 import { FiltrarInfoService } from './filtrar-info.service';
 import { AnalisisSentimientoComponent } from './analisis-sentimiento/analisis-sentimiento.component';
+import { FrecuenciasDatatableComponent } from './frecuencias-datatable/frecuencias-datatable.component';
 
 
 @NgModule({
@@ -33,6 +34,7 @@ import { AnalisisSentimientoComponent } from './analisis-sentimiento/analisis-se
     AnalisisComponent,
     ChartPieComponent,
     AnalisisSentimientoComponent,
+    FrecuenciasDatatableComponent,
 
   ],
   imports: [
