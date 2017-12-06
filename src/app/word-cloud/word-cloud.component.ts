@@ -8,7 +8,7 @@ import { FiltrarInfoService } from "../filtrar-info.service";
 })
 export class WordCloudComponent implements OnInit {
 
-  private imgSrc:string = 'assets/images/PQR_Word_Cloud.png';
+  private imgSrc:string = 'assets/images/generalpqrs.png';
   private titulo:string = 'Fuente';
   private seleccion:string = 'PQR';
 
@@ -32,16 +32,19 @@ export class WordCloudComponent implements OnInit {
   public setImgFuente() {
     switch (this.seleccion) {
       case 'PQR':
-        this.imgSrc = 'assets/images/PQR_Word_Cloud.png';
+        this.imgSrc = 'assets/images/generalpqrs.png';
       break;
       case 'Oficios':
-        this.imgSrc = 'assets/images/Oficios_Word_Cloud.png'
+        this.imgSrc = 'assets/images/totaloficios.png';
       break
-      case 'Servcio Comercial':
-      
+      case 'Encuestas de Servicio Comercial':
+        this.imgSrc = 'assets/images/generalencuestas.png';
       break
       case 'Chats':
-      
+        this.imgSrc = 'assets/images/generalchats.png';
+      break
+      case 'Llamadas Contact Center':
+      this.imgSrc = 'assets/images/generalllamadas.png';
       break
     
       default:
