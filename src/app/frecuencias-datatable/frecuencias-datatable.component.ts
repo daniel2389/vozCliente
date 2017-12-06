@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-frecuencias-datatable',
@@ -6,6 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./frecuencias-datatable.component.css']
 })
 export class FrecuenciasDatatableComponent implements OnInit {
+
+  @Input() data: any;
 
   constructor() { }
 

@@ -17,6 +17,8 @@ import { ChartPieComponent } from './chart-pie/chart-pie.component';
 import { FiltrarInfoService } from './filtrar-info.service';
 import { AnalisisSentimientoComponent } from './analisis-sentimiento/analisis-sentimiento.component';
 import { FrecuenciasDatatableComponent } from './frecuencias-datatable/frecuencias-datatable.component';
+import { InfoTablasService } from './info-tablas.service';
+
 
 
 @NgModule({
@@ -42,7 +44,7 @@ import { FrecuenciasDatatableComponent } from './frecuencias-datatable/frecuenci
     MaterializeModule,
     FormsModule
   ],
-  providers: [FiltrarInfoService],
+  providers: [FiltrarInfoService, InfoTablasService],
   bootstrap: [AppComponent]
 })
 export class AppModule {
