@@ -8,37 +8,29 @@ import { FiltrarInfoService } from "../filtrar-info.service";
 })
 export class WordCloudComponent implements OnInit {
 
-  private imgSrc:string;
-  private titulo:string;
+  private imgSrc:string = 'assets/images/PQR_Word_Cloud.png';
+  private titulo:string = 'Fuente';
+  private seleccion:string = 'PQR';
 
   constructor(private filtrar:FiltrarInfoService) { }
 
   ngOnInit() {
-    this.titulo = this.filtrar.getTituloMain();
-    this.imgSrc = 'assets/images/PQR_Word_Cloud.png';
-  }
-
-  public checkFuente(){
-    switch (this.filtrar.getTituloMain()) {
-      case 'Fuente':
+    this.filtrar.updatedTituloMain.subscribe(
+      (tituloMain)=>{
+        this.titulo = tituloMain;
+      }
+    );
+    this.filtrar.updatedSeleccion.subscribe(
+      (seleccion)=>{
+        this.seleccion = seleccion;
         this.setImgFuente();
-      break;
-      case 'Mes':
-      
-      break;
-
-      case 'Año':
-      
-      break;
-      
-      
-      default:
-        break;
-    }
+      }
+    );
   }
+
 
   public setImgFuente() {
-    switch (this.filtrar.getSeleccion()) {
+    switch (this.seleccion) {
       case 'PQR':
         this.imgSrc = 'assets/images/PQR_Word_Cloud.png';
       break;

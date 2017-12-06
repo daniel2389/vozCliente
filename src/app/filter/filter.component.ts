@@ -34,6 +34,6 @@ export class FilterComponent implements OnInit, AfterViewInit {
       this.filtrar.setTituloMain(this.tituloMain);
       this.filtrar.setSeleccion($("#"+this.tituloMain).val());
     });
-  }           
-
+  }    
+  
 }
