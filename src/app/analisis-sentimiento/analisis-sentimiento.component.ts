@@ -38,7 +38,7 @@ export class AnalisisSentimientoComponent implements OnInit {
         this.imgSrc = 'assets/images/OficiosGeneral.png';
       break
       case 'Encuestas de Servicio Comercial':
-        this.imgSrc = 'assets/images/EncuestasGeneral.png';
+        this.imgSrc = 'assets/images/EncuentasGeneral.png';
       break
       case 'Chats':
         this.imgSrc = 'assets/images/CHATSGeneral.png';

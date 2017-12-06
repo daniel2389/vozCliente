@@ -3,7 +3,7 @@ import { Injectable } from '@angular/core';
 @Injectable()
 export class InfoTablasService {
 
-  private tablaChats:any = {
+  public tablaChats:any = {
     headers: ['Palabra', 'Frecuencia'],
     rows: [
       ['SI', '4365'],
@@ -18,7 +18,7 @@ export class InfoTablasService {
       ['CUENTA', '1437']
     ]
   }
-  private tablaEncuestas:any = {
+  public tablaEncuestas:any = {
     headers: ['Palabra', 'Frecuencia'],
     rows: [
       ['ORIENTACIÓN', '339'],
@@ -33,7 +33,7 @@ export class InfoTablasService {
       ['CHEC', '259']
     ]
   }
-  private tablaLlamadas:any = {
+  public tablaLlamadas:any = {
     headers: ['Palabra', 'Frecuencia'],
     rows: [
       ['NUMERO', '1826'],
@@ -50,7 +50,7 @@ export class InfoTablasService {
     ]
   }
 
-  private tablaOficios:any = {
+  public tablaOficios:any = {
     headers: ['Palabra', 'Frecuencia'],
     rows: [
       ['MANIZALES', '1804'],
@@ -67,7 +67,7 @@ export class InfoTablasService {
     ]
   }
 
-  private tablaPQR:any = {
+  public tablaPQR:any = {
     headers: ['Palabra', 'Frecuencia'],
     rows: [
       ['PAGO', '15330'],
@@ -80,6 +80,22 @@ export class InfoTablasService {
       ['SUSCRIPTOR', '3588'],
       ['CAMBIO', '6265'],
       ['PETICIÓN', '4273']
+    ]
+  }
+
+  public tablaChatsSentimiento:any = {
+    headers: ['Palabra', 'Frecuencia'],
+    rows: [
+      ['SI', '4365'],
+      ['FACTURA', '0001'],
+      ['GRACIAS', '5772'],
+      ['SEÑORA', '1961'],
+      ['MOMENTO', '2579'],
+      ['CHEC', '2557'],
+      ['CHEC_CHAT', '1515'],
+      ['FAVOR', '1947'],
+      ['NOMBRE', '2389'],
+      ['CUENTA', '1437']
     ]
   }
 

@@ -10,6 +10,7 @@ import { FrecuenciasDatatableComponent } from "../frecuencias-datatable/frecuenc
 })
 export class AnalisisComponent implements OnInit {
 
+
   constructor() { }
 
   ngOnInit() {
