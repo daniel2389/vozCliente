@@ -1,0 +1,29 @@
+.page-footer {
+    background-color: rgb(139, 141, 142);
+}
+
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+
+  .posicionLogo1 {
+    width: 8%;
+    margin-top: 7px
+}
+
+.posicionLogo2 {
+    width: 11%;
+    margin-top: -10px;
+    margin-left: 15px
+}
+
+.footer_atri{
+    height: 50%;
+}

@@ -1,0 +1,16 @@
+.nav-wrapper {
+    background-color: rgb(139, 141, 142);
+    padding-left: 18px
+}
+
+a.brand-logo:hover{
+    color: #ffffffea !important
+}
+
+.iconBig{
+    font-size: 45px;
+}
+
+.iconBig2{
+    font-size: 35px;
+}

@@ -1,0 +1,11 @@
+.color_btn {
+    background-color: #50A495;
+}
+
+.buttons_circle_right{
+    display: flex;
+    flex-direction: column;
+    padding-top: 2em;
+    height: 11em;
+    justify-content: space-between;
+}
