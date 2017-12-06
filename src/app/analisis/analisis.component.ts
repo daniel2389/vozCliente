@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { ChartPieComponent } from "../chart-pie/chart-pie.component";
 import { WordCloudComponent } from "../word-cloud/word-cloud.component";
+import { ChartPieComponent } from "../chart-pie/chart-pie.component";
+
 
 @Component({
   selector: 'app-analisis',

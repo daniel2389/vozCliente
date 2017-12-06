@@ -16,9 +16,6 @@ export class FiltrarInfoService {
     return
   }
 
-
-
-
   public setTituloMain(v: string) {
     this.tituloMain = v;
   }
