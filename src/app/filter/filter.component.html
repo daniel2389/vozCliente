@@ -4,7 +4,7 @@
     <div class="card hoverable">
       <div class="card-content">
         <span class="card-title">{{tituloMain}}</span>
-        <select [id]="tituloMain">
+        <select [id]="tituloMain" (change)="cambioDeValorSelect($event)">
           <option value="" disabled selected>Selecciona {{tituloLabel}}</option>
           <option *ngFor="let item of listaOpciones" [value]="item">{{item}}</option>
         </select>
