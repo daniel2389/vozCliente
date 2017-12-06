@@ -44,7 +44,7 @@ export class WordCloudComponent implements OnInit {
         this.imgSrc = 'assets/images/generalchats.png';
       break
       case 'Llamadas Contact Center':
-      this.imgSrc = 'assets/images/generalllamadas.png';
+        this.imgSrc = 'assets/images/generalllamadas.png';
       break
     
       default:
