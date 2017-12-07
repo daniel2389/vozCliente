@@ -35,7 +35,15 @@ export class FiltrarInfoService {
       case 'Llamadas Contact Center':
       return this.infoTablas.tablaLlamadas;
       case 'PQRSentimiento':
+      return this.infoTablas.tablaPQRSentimiento;
+      case 'OficiosSentimiento':
+      return this.infoTablas.tablaOficiosSentimiento;
+      case 'Encuestas de Servicio ComercialSentimiento':
+      return this.infoTablas.tablaEncuestasSentimiento;
+      case 'ChatsSentimiento':
       return this.infoTablas.tablaChatsSentimiento;
+      case 'Llamadas Contact CenterSentimiento':
+      return this.infoTablas.tablaLlamadasSentimiento;
       default:
         break;
     }
