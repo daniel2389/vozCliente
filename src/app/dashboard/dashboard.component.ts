@@ -12,14 +12,14 @@ import { FooterComponent } from "../footer/footer.component";
 export class DashboardComponent implements OnInit {
 
   listaFuentes: string[] = ['PQR', 'Oficios', 'Encuestas de Servicio Comercial', 'Chats', 'Llamadas Contact Center'];
-  listaMeses: string[] = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre','Diciembre'];
   listaAnos: string[] = ['2017', '2016', '2015', '2014']
+  listaMeses: string[] = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre','Diciembre'];
   tituloFuentes: string = 'la fuente';
-  tituloMeses: string = 'el mes';
   tituloAnos: string = 'el año';
+  tituloMeses: string = 'el mes';
   tituloMainFuentes: string = 'Fuente';
-  tituloMainMeses: string = 'Mes';
   tituloMainAnos: string = 'Año';
+  tituloMainMeses: string = 'Mes';
 
   constructor() { }
 

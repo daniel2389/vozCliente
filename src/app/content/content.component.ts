@@ -17,19 +17,11 @@ declare var jQuery: any;
 export class ContentComponent implements OnInit {
 
     text
-
-
     constructor() { }
 
     ngOnInit() {
 
         $('.carousel.carousel-slider').carousel({ fullWidth: true });
         $('.tooltipped').tooltip({ delay: 50 });
-
-
-
-
     }
-
-
 }

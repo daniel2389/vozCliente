@@ -1,5 +1,4 @@
 import { TestBed, inject } from '@angular/core/testing';
-
 import { InfoTablasService } from './info-tablas.service';
 
 describe('InfoTablasService', () => {
