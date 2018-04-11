@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { FuentesComponent } from "../fuentes/fuentes.component";
-import { AnalisisComponent } from "../analisis/analisis.component";
-import { AnalisisSentimientoComponent } from "../analisis-sentimiento/analisis-sentimiento.component";
+import { FuentesComponent } from '../fuentes/fuentes.component';
+import { AnalisisComponent } from '../analisis/analisis.component';
+import { AnalisisSentimientoComponent } from '../analisis-sentimiento/analisis-sentimiento.component';
 declare var $: any;
 declare var jQuery: any;
 
@@ -16,7 +16,7 @@ declare var jQuery: any;
 
 export class ContentComponent implements OnInit {
 
-    text
+    text;
     constructor() { }
 
     ngOnInit() {

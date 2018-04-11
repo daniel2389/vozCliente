@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { ChartComponent } from "../chart/chart.component";
-import { DataTableComponent } from "../data-table/data-table.component";
+import { ChartComponent } from '../chart/chart.component';
+import { DataTableComponent } from '../data-table/data-table.component';
 
 @Component({
   selector: 'app-fuentes',

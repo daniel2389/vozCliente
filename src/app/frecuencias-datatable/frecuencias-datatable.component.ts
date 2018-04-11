@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { FiltrarInfoService } from "../filtrar-info.service";
+import { FiltrarInfoService } from '../filtrar-info.service';
 
 @Component({
   selector: 'app-frecuencias-datatable',
@@ -11,7 +11,7 @@ export class FrecuenciasDatatableComponent implements OnInit {
   @Input() tipoAnalisis: string;
   private data: any;
 
-  constructor(private filtrar:FiltrarInfoService) { }
+  constructor(private filtrar: FiltrarInfoService) { }
 
   ngOnInit() {
     switch (this.tipoAnalisis) {
@@ -21,25 +21,25 @@ export class FrecuenciasDatatableComponent implements OnInit {
       case 'Sentimiento':
         this.data = this.filtrar.getDataInfo('PQRSentimiento');
         break;
-    
+
       default:
         break;
     }
 
     this.filtrar.updatedSeleccion.subscribe(
-      (seleccion)=>{
+      (seleccion) => {
         switch (this.tipoAnalisis) {
           case 'WordCloud':
             this.data = this.filtrar.getDataInfo(seleccion);
             break;
           case 'Sentimiento':
-            this.data = this.filtrar.getDataInfo(seleccion+'Sentimiento');
+            this.data = this.filtrar.getDataInfo(seleccion + 'Sentimiento');
             break;
-        
+
           default:
             break;
         }
-       
+
       }
     );
   }

@@ -1,6 +1,7 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
-import { FuentesComponent } from "../fuentes/fuentes.component";
-import { AnalisisComponent } from "../analisis/analisis.component";
+import { FuentesComponent } from '../fuentes/fuentes.component';
+import { AnalisisComponent } from '../analisis/analisis.component';
+import { ContentComponent } from './content.component';
 
 describe('ContentComponent', () => {
   let component: ContentComponent;

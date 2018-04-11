@@ -17,7 +17,7 @@ export class InfoTablasService {
       ['CHEC CHAT', '1515'],
       ['CUENTA', '1437']
     ]
-  }
+  };
   public tablaEncuestas: any = {
     headers: ['Palabra', 'Frecuencia'],
     rows: [
@@ -32,7 +32,7 @@ export class InfoTablasService {
       ['CONOCIMIENTO', '300'],
       ['CHEC', '259']
     ]
-  }
+  };
   public tablaLlamadas: any = {
     headers: ['Palabra', 'Frecuencia'],
     rows: [
@@ -48,7 +48,7 @@ export class InfoTablasService {
       ['INFORMACIÓN', '366'],
       ['DIRECCIÓN', '164'],
     ]
-  }
+  };
 
   public tablaOficios: any = {
     headers: ['Palabra', 'Frecuencia'],
@@ -65,7 +65,7 @@ export class InfoTablasService {
       ['NÚMERO', '473'],
       ['CONTRATO', '396']
     ]
-  }
+  };
 
   public tablaPQR: any = {
     headers: ['Palabra', 'Frecuencia'],
@@ -81,7 +81,7 @@ export class InfoTablasService {
       ['USUARIO', '3834'],
       ['SUSCRIPTOR', '3588'],
     ]
-  }
+  };
 
   public tablaChatsSentimiento: any = {
     headers: ['Sentimiento', 'Frecuencia'],
@@ -92,7 +92,7 @@ export class InfoTablasService {
       ['Muy Positivo', '1647'],
       ['Muy Negativo', '31'],
     ]
-  }
+  };
 
   public tablaEncuestasSentimiento: any = {
     headers: ['Sentimiento', 'Frecuencia'],
@@ -103,7 +103,7 @@ export class InfoTablasService {
       ['Muy Positivo', '58'],
       ['Muy Negativo', '7'],
     ]
-  }
+  };
 
   public tablaLlamadasSentimiento: any = {
     headers: ['Sentimiento', 'Frecuencia'],
@@ -114,7 +114,7 @@ export class InfoTablasService {
       ['Muy Negativo', '58'],
       ['Neutro', '15'],
     ]
-  }
+  };
 
   public tablaOficiosSentimiento: any = {
     headers: ['Sentimiento', 'Frecuencia'],
@@ -125,7 +125,7 @@ export class InfoTablasService {
       ['Muy Positivo', '339'],
       ['Muy Negativo', '12'],
     ]
-  }
+  };
 
   public tablaPQRSentimiento: any = {
     headers: ['Sentimiento', 'Frecuencia'],
@@ -136,7 +136,7 @@ export class InfoTablasService {
       ['Muy Positivo', '1281'],
       ['Muy Negativo', '55'],
     ]
-  }
+  };
 
 
   constructor() { }

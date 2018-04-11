@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { FiltrarInfoService } from "../filtrar-info.service";
+import { FiltrarInfoService } from '../filtrar-info.service';
 
 @Component({
   selector: 'app-analisis-sentimiento',
@@ -8,20 +8,20 @@ import { FiltrarInfoService } from "../filtrar-info.service";
 })
 export class AnalisisSentimientoComponent implements OnInit {
 
-  private imgSrc:string = 'assets/images/PQRGeneral.png';
-  private titulo:string = 'Fuente';
-  private seleccion:string = 'PQR';
+  private imgSrc = 'assets/images/PQRGeneral.png';
+  private titulo = 'Fuente';
+  private seleccion = 'PQR';
 
-  constructor(private filtrar:FiltrarInfoService) { }
+  constructor(private filtrar: FiltrarInfoService) { }
 
   ngOnInit() {
     this.filtrar.updatedTituloMain.subscribe(
-      (tituloMain)=>{
+      (tituloMain) => {
         this.titulo = tituloMain;
       }
     );
     this.filtrar.updatedSeleccion.subscribe(
-      (seleccion)=>{
+      (seleccion) => {
         this.seleccion = seleccion;
         this.setImgFuente();
       }
@@ -33,20 +33,20 @@ export class AnalisisSentimientoComponent implements OnInit {
     switch (this.seleccion) {
       case 'PQR':
         this.imgSrc = 'assets/images/PQRGeneral.png';
-      break;
+        break;
       case 'Oficios':
         this.imgSrc = 'assets/images/OficiosGeneral.png';
-      break
+        break;
       case 'Encuestas de Servicio Comercial':
         this.imgSrc = 'assets/images/EncuentasGeneral.png';
-      break
+        break;
       case 'Chats':
         this.imgSrc = 'assets/images/CHATSGeneral.png';
-      break
+        break;
       case 'Llamadas Contact Center':
         this.imgSrc = 'assets/images/LlamadasGeneral.png';
-      break
-    
+        break;
+
       default:
         break;
     }

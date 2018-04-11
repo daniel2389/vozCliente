@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { WordCloudComponent } from "../word-cloud/word-cloud.component";
-import { FrecuenciasDatatableComponent } from "../frecuencias-datatable/frecuencias-datatable.component";
+import { WordCloudComponent } from '../word-cloud/word-cloud.component';
+import { FrecuenciasDatatableComponent } from '../frecuencias-datatable/frecuencias-datatable.component';
 
 
 @Component({

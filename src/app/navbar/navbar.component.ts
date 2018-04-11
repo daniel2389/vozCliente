@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-declare var $:any;
-declare var jQuery:any;
+declare var $: any;
+declare var jQuery: any;
 
 
 
@@ -14,11 +14,11 @@ export class NavbarComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    $(".button-collapse2").sideNav({
+    $('.button-collapse2').sideNav({
       menuWidth: 300, // Default is 300
       edge: 'right', // Choose the horizontal origin
-      
-      
+
+
     });
   }
 

@@ -1,5 +1,5 @@
 import { Injectable, EventEmitter } from '@angular/core';
-import { InfoTablasService } from "./info-tablas.service";
+import { InfoTablasService } from './info-tablas.service';
 
 @Injectable()
 export class FiltrarInfoService {
@@ -7,10 +7,10 @@ export class FiltrarInfoService {
   private tituloMain: string;
   private seleccion: string;
   private dataInfo: any;
-  public updatedTituloMain:EventEmitter<string> = new EventEmitter();
-  public updatedSeleccion:EventEmitter<string> = new EventEmitter();
+  public updatedTituloMain: EventEmitter<string> = new EventEmitter();
+  public updatedSeleccion: EventEmitter<string> = new EventEmitter();
 
-  constructor(private infoTablas:InfoTablasService) { }
+  constructor(private infoTablas: InfoTablasService) { }
 
 
   public getSeleccion(): string {
@@ -21,34 +21,34 @@ export class FiltrarInfoService {
     return this.tituloMain;
   }
 
-  
-  public getDataInfo(fuente) : any {
+
+  public getDataInfo(fuente): any {
     switch (fuente) {
       case 'PQR':
         return this.infoTablas.tablaPQR;
       case 'Oficios':
-      return this.infoTablas.tablaOficios;
+        return this.infoTablas.tablaOficios;
       case 'Encuestas de Servicio Comercial':
-      return this.infoTablas.tablaEncuestas;
+        return this.infoTablas.tablaEncuestas;
       case 'Chats':
-      return this.infoTablas.tablaChats;
+        return this.infoTablas.tablaChats;
       case 'Llamadas Contact Center':
-      return this.infoTablas.tablaLlamadas;
+        return this.infoTablas.tablaLlamadas;
       case 'PQRSentimiento':
-      return this.infoTablas.tablaPQRSentimiento;
+        return this.infoTablas.tablaPQRSentimiento;
       case 'OficiosSentimiento':
-      return this.infoTablas.tablaOficiosSentimiento;
+        return this.infoTablas.tablaOficiosSentimiento;
       case 'Encuestas de Servicio ComercialSentimiento':
-      return this.infoTablas.tablaEncuestasSentimiento;
+        return this.infoTablas.tablaEncuestasSentimiento;
       case 'ChatsSentimiento':
-      return this.infoTablas.tablaChatsSentimiento;
+        return this.infoTablas.tablaChatsSentimiento;
       case 'Llamadas Contact CenterSentimiento':
-      return this.infoTablas.tablaLlamadasSentimiento;
+        return this.infoTablas.tablaLlamadasSentimiento;
       default:
         break;
     }
   }
-  
+
 
   public setTituloMain(v: string) {
     this.tituloMain = v;
@@ -61,7 +61,7 @@ export class FiltrarInfoService {
   }
 
 
-  
+
 
 
 }
