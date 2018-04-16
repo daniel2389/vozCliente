@@ -1,0 +1,21 @@
+.tabs {
+  height: auto;
+  white-space: normal;
+}
+
+.tab {
+  display: block;
+  width: 100%;
+  border-bottom: 1px solid #208517;
+}
+
+.tab-content {
+  height: 200px;
+  width: 100%;
+  background: #fcfcfc;
+  border: 1px solid #f0f0f0;
+}
+
+.indicator {
+  display: none;
+}

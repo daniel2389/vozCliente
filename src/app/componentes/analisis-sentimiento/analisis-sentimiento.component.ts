@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { FiltrarInfoService } from '../filtrar-info.service';
+import { FiltrarInfoService } from '../../filtrar-info.service';
 
 @Component({
   selector: 'app-analisis-sentimiento',

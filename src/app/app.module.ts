@@ -3,23 +3,36 @@ import { NgModule } from '@angular/core';
 import { MaterializeModule } from 'angular2-materialize';
 import { AppComponent } from './app.component';
 import { FormsModule } from '@angular/forms';
-import { NavbarComponent } from './navbar/navbar.component';
-import { DashboardComponent } from './dashboard/dashboard.component';
-import { ContentComponent } from './content/content.component';
-import { FilterComponent } from './filter/filter.component';
-import { FooterComponent } from './footer/footer.component';
-import { ChartComponent } from './chart/chart.component';
-import { WordCloudComponent } from './word-cloud/word-cloud.component';
-import { DataTableComponent } from './data-table/data-table.component';
-import { FuentesComponent } from './fuentes/fuentes.component';
-import { AnalisisComponent } from './analisis/analisis.component';
-import { ChartPieComponent } from './chart-pie/chart-pie.component';
+
+
+// paginas main
+import { DashboardComponent } from './componentes/dashboard/dashboard.component';
+import { HomeComponent } from './componentes/home/home.component';
+
+// componentes
+import { NavbarComponent } from './componentes/navbar/navbar.component';
+import { ContentComponent } from './componentes/content/content.component';
+import { FilterComponent } from './componentes/filter/filter.component';
+import { FooterComponent } from './componentes/footer/footer.component';
+import { ChartComponent } from './componentes/chart/chart.component';
+import { WordCloudComponent } from './componentes/word-cloud/word-cloud.component';
+import { DataTableComponent } from './componentes/data-table/data-table.component';
+import { FuentesComponent } from './componentes/fuentes/fuentes.component';
+import { AnalisisComponent } from './componentes/analisis/analisis.component';
+import { ChartPieComponent } from './componentes/chart-pie/chart-pie.component';
+import { AnalisisSentimientoComponent } from './componentes/analisis-sentimiento/analisis-sentimiento.component';
+import { FrecuenciasDatatableComponent } from './componentes/frecuencias-datatable/frecuencias-datatable.component';
+import { MainButtonComponent } from './componentes/main-button/main-button.component';
+import { BreadcrumbComponent } from './componentes/breadcrumb/breadcrumb.component';
+import { SuitTabComponent } from './componentes/suit-tab/suit-tab.component';
+import { CardInfoComponent } from './componentes/card-info/card-info.component';
+
+// rutas
+import { APP_ROUTING } from './app.routes';
+
+// servicios
 import { FiltrarInfoService } from './filtrar-info.service';
-import { AnalisisSentimientoComponent } from './analisis-sentimiento/analisis-sentimiento.component';
-import { FrecuenciasDatatableComponent } from './frecuencias-datatable/frecuencias-datatable.component';
 import { InfoTablasService } from './info-tablas.service';
-
-
 
 @NgModule({
   declarations: [
@@ -37,12 +50,18 @@ import { InfoTablasService } from './info-tablas.service';
     ChartPieComponent,
     AnalisisSentimientoComponent,
     FrecuenciasDatatableComponent,
+    MainButtonComponent,
+    BreadcrumbComponent,
+    HomeComponent,
+    SuitTabComponent,
+    CardInfoComponent,
 
   ],
   imports: [
     BrowserModule,
     MaterializeModule,
-    FormsModule
+    FormsModule,
+    APP_ROUTING,
   ],
   providers: [FiltrarInfoService, InfoTablasService],
   bootstrap: [AppComponent]
