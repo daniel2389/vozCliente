@@ -1,0 +1,106 @@
+{
+  "home": [{
+      "titulo": "Contact Center",
+      "icono": "contact_phone"
+    },
+    {
+      "titulo": "Chat",
+      "icono": "chat"
+    },
+    {
+      "titulo": "PQR",
+      "icono": "collections_bookmark"
+    },
+    {
+      "titulo": "Digiturnos",
+      "icono": "confirmation_number"
+    }
+  ],
+
+  "page-descripcion": [{
+      "titulo": "Contact Center",
+      "icono": "contact_phone",
+      "formato": "EXCEL",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt rutrum mi. Cras condimentum ac dui et rutrum. Vestibulum viverra neque neque, imperdiet fringilla nisi dapibus eget. Cras eu est in urna consectetur finibus in vel nisi. Phasellus a congue arcu. Curabitur egestas non tellus sed viverra. Sed at odio pulvinar, vestibulum magna sit amet, congue quam. Suspendisse semper hendrerit nisl ac pulvinar. Duis eu dui enim. Proin at velit non enim pulvinar eleifend.",
+      "caracterizacion": [{
+        "quees": "Aliquam vehicula, lorem sit amet luctus convallis",
+        "que encuentro": "Pellentesque aliquam lobortis arcu in scelerisque",
+        "urlimg": "www.imagencaracterizacion.com"
+      }],
+      "inventario": [{
+        "quees": "Interdum et malesuada fames ac ante ipsum",
+        "que encuentro": "Pellentesque ut vulputate nisl, eu venenatis velit.",
+        "urlimg": "www.imageninventario.com"
+      }],
+      "analisis": [{
+        "quees": "Curabitur luctus tortor leo, dictum consectetur",
+        "que encuentro": "Duis eget quam quis dolor porta facilisis.",
+        "urlimg": "www.imagenanalisis.com"
+      }]
+    },
+    {
+      "titulo": "Chat",
+      "icono": "chat",
+      "formato": "WORD",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt rutrum mi. Cras condimentum ac dui et rutrum. Vestibulum viverra neque neque, imperdiet fringilla nisi dapibus eget. Cras eu est in urna consectetur finibus in vel nisi. Phasellus a congue arcu. Curabitur egestas non tellus sed viverra. Sed at odio pulvinar, vestibulum magna sit amet, congue quam. Suspendisse semper hendrerit nisl ac pulvinar. Duis eu dui enim. Proin at velit non enim pulvinar eleifend.",
+      "caracterizacion": [{
+        "quees": "Aliquam vehicula, lorem sit amet luctus convallis",
+        "que encuentro": "Pellentesque aliquam lobortis arcu in scelerisque",
+        "urlimg": "www.imagencaracterizacion.com"
+      }],
+      "inventario": [{
+        "quees": "Interdum et malesuada fames ac ante ipsum",
+        "que encuentro": "Pellentesque ut vulputate nisl, eu venenatis velit.",
+        "urlimg": "www.imageninventario.com"
+      }],
+      "analisis": [{
+        "quees": "Curabitur luctus tortor leo, dictum consectetur",
+        "que encuentro": "Duis eget quam quis dolor porta facilisis.",
+        "urlimg": "www.imagenanalisis.com"
+      }]
+
+    },
+    {
+      "titulo": "PQR",
+      "icono": "collections_bookmark",
+      "formato": "PDF",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt rutrum mi. Cras condimentum ac dui et rutrum. Vestibulum viverra neque neque, imperdiet fringilla nisi dapibus eget. Cras eu est in urna consectetur finibus in vel nisi. Phasellus a congue arcu. Curabitur egestas non tellus sed viverra. Sed at odio pulvinar, vestibulum magna sit amet, congue quam. Suspendisse semper hendrerit nisl ac pulvinar. Duis eu dui enim. Proin at velit non enim pulvinar eleifend.",
+      "caracterizacion": [{
+        "quees": "Aliquam vehicula, lorem sit amet luctus convallis",
+        "que encuentro": "Pellentesque aliquam lobortis arcu in scelerisque",
+        "urlimg": "www.imagencaracterizacion.com"
+      }],
+      "inventario": [{
+        "quees": "Interdum et malesuada fames ac ante ipsum",
+        "que encuentro": "Pellentesque ut vulputate nisl, eu venenatis velit.",
+        "urlimg": "www.imageninventario.com"
+      }],
+      "analisis": [{
+        "quees": "Curabitur luctus tortor leo, dictum consectetur",
+        "que encuentro": "Duis eget quam quis dolor porta facilisis.",
+        "urlimg": "www.imagenanalisis.com"
+      }]
+    },
+    {
+      "titulo": "Digiturnos",
+      "icono": "confirmation_number",
+      "formato": "PDF",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt rutrum mi. Cras condimentum ac dui et rutrum. Vestibulum viverra neque neque, imperdiet fringilla nisi dapibus eget. Cras eu est in urna consectetur finibus in vel nisi. Phasellus a congue arcu. Curabitur egestas non tellus sed viverra. Sed at odio pulvinar, vestibulum magna sit amet, congue quam. Suspendisse semper hendrerit nisl ac pulvinar. Duis eu dui enim. Proin at velit non enim pulvinar eleifend.",
+      "caracterizacion": [{
+        "quees": "Aliquam vehicula, lorem sit amet luctus convallis",
+        "que encuentro": "Pellentesque aliquam lobortis arcu in scelerisque",
+        "urlimg": "www.imagencaracterizacion.com"
+      }],
+      "inventario": [{
+        "quees": "Interdum et malesuada fames ac ante ipsum",
+        "que encuentro": "Pellentesque ut vulputate nisl, eu venenatis velit.",
+        "urlimg": "www.imageninventario.com"
+      }],
+      "analisis": [{
+        "quees": "Curabitur luctus tortor leo, dictum consectetur",
+        "que encuentro": "Duis eget quam quis dolor porta facilisis.",
+        "urlimg": "www.imagenanalisis.com"
+      }]
+    }
+  ]
+}

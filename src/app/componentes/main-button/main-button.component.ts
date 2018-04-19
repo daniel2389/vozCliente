@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-main-button',
@@ -6,6 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./main-button.component.css']
 })
 export class MainButtonComponent implements OnInit {
+
+  @Input() listaBoton: any[];
 
   constructor() { }
 

@@ -17,7 +17,6 @@ export class ChartComponent implements OnInit {
         const myChart = new Chart(ctx, {
             type: 'horizontalBar',
             data: {
-                // tslint:disable-next-line:max-line-length
                 labels: ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'],
                 datasets: [{
                     label: 'Observaciones de PQRs por mes',

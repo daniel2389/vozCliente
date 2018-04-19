@@ -5,9 +5,13 @@ import { AppComponent } from './app.component';
 import { FormsModule } from '@angular/forms';
 
 
+
 // paginas main
-import { DashboardComponent } from './componentes/dashboard/dashboard.component';
 import { HomeComponent } from './componentes/home/home.component';
+import { PageDescripcionComponent } from './componentes/page-descripcion/page-descripcion.component';
+import { PageCaracterizacionComponent } from './componentes/page-caracterizacion/page-caracterizacion.component';
+import { PageInventarioComponent } from './componentes/page-inventario/page-inventario.component';
+import { PageAnalisisComponent } from './componentes/page-analisis/page-analisis.component';
 
 // componentes
 import { NavbarComponent } from './componentes/navbar/navbar.component';
@@ -26,19 +30,39 @@ import { MainButtonComponent } from './componentes/main-button/main-button.compo
 import { BreadcrumbComponent } from './componentes/breadcrumb/breadcrumb.component';
 import { SuitTabComponent } from './componentes/suit-tab/suit-tab.component';
 import { CardInfoComponent } from './componentes/card-info/card-info.component';
+import { DetalleCaracterizacionComponent } from './componentes/detalle-caracterizacion/detalle-caracterizacion.component';
+import { AnalisisButtonComponent } from './componentes/analisis-button/analisis-button.component';
 
 // rutas
-import { APP_ROUTING } from './app.routes';
+import { RouterModule, Routes } from '@angular/router';
 
 // servicios
 import { FiltrarInfoService } from './filtrar-info.service';
 import { InfoTablasService } from './info-tablas.service';
 
+
+const appRoutes: Routes = [
+  { path: 'page-caracterizacion', component: PageCaracterizacionComponent },
+  { path: 'page-analisis', component: PageAnalisisComponent },
+  { path: 'page-descripcion', component: PageDescripcionComponent },
+  { path: 'page-inventario', component: PageInventarioComponent },
+  { path: 'home', component: HomeComponent },
+  {
+    path: 'home',
+    component: HomeComponent,
+    data: { title: 'Heroes List' }
+  },
+  {
+    path: '',
+    redirectTo: '/home',
+    pathMatch: 'full'
+  },
+];
+
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    DashboardComponent,
     ContentComponent,
     FilterComponent,
     FooterComponent,
@@ -55,13 +79,22 @@ import { InfoTablasService } from './info-tablas.service';
     HomeComponent,
     SuitTabComponent,
     CardInfoComponent,
+    PageDescripcionComponent,
+    PageCaracterizacionComponent,
+    PageInventarioComponent,
+    PageAnalisisComponent,
+    DetalleCaracterizacionComponent,
+    AnalisisButtonComponent,
 
   ],
   imports: [
     BrowserModule,
     MaterializeModule,
     FormsModule,
-    APP_ROUTING,
+    RouterModule.forRoot(
+      appRoutes,
+      { enableTracing: true } // <-- debugging purposes only
+    )
   ],
   providers: [FiltrarInfoService, InfoTablasService],
   bootstrap: [AppComponent]

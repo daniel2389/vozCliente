@@ -13,16 +13,31 @@ main {
 }
 
 .posicionLogo1 {
-    width: 8%;
+    width: 16%;
     margin-top: 7px
 }
 
 .posicionLogo2 {
-    width: 11%;
+    width: 21%;
+    margin-top: -10px;
+    margin-left: 30px
+}
+
+.posicionLogo3 {
+    width: 18%;
     margin-top: -10px;
     margin-left: 15px
 }
 
 .footer_atri {
     height: 50%;
+}
+.supspace{
+    margin-bottom: 0px !important;
+    margin-left: 0px !important;
+    padding-right: 30px;
+}
+
+.correr{
+    padding-left: 150px
 }

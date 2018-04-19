@@ -1,4 +1,4 @@
-<a class="nav-Link button waves-effect waves-light btn-large" [routerLink]="['/dashboard']"><i class="material-icons left">cloud</i>CHAT</a>
-<a class="button waves-effect waves-light btn-large"><i class="material-icons left">cloud</i>button</a>
-<a class="button waves-effect waves-light btn-large"><i class="material-icons left">cloud</i>button</a>
-<a class="button waves-effect waves-light btn-large"><i class="material-icons left">cloud</i>button</a>
+<div *ngFor="let item of listaBoton" class="{{item.color}} button waves-effect waves-light btn" routerLink="/page-descripcion" routerLinkActive="active">
+  <i class="material-icons">{{item.icono}}</i>
+  <span>{{item.titulo}}</span>
+</div>

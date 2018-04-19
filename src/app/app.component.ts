@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { DashboardComponent } from './componentes/dashboard/dashboard.component';
+
 declare var $: any;
 declare var jQuery: any;
 
@@ -9,6 +9,6 @@ declare var jQuery: any;
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-
+  hola = 1;
 }
 
