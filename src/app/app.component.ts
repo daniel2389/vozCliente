@@ -9,6 +9,5 @@ declare var jQuery: any;
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  hola = 1;
 }
 

@@ -1,15 +1,11 @@
-
 <div class="row">
   <div class="col s12">
-    <div class="card hoverable">
-      <div class="card-content">
-        <span class="card-title">{{tituloMain}}</span>
-        <select multiple [id]="tituloMain" (change)="cambioDeValorSelect($event)">
-          <option value="" disabled selected>Selecciona {{tituloLabel}}</option>
-          <option *ngFor="let item of listaOpciones" [value]="item">{{item}}</option>
-        </select>
-      </div>
-    </div>
+
+    <!--         <span class="textoGrande">{{tituloMain}}</span>
+ -->
+    <select class="organizar" multiple [id]="tituloMain" (change)="cambioDeValorSelect($event)">
+      <option value="" disabled selected>{{tituloLabel}}</option>
+      <option *ngFor="let item of listaOpciones" [value]="item">{{item}}</option>
+    </select>
   </div>
 </div>
-

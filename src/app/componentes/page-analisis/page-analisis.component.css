@@ -1,0 +1,17 @@
+.customimg{
+    width: 45%;
+    border-radius: 50%;
+    background-image: yellow;
+}
+
+.customIcon{
+    font-size: 3em;
+}
+.customDiv{
+    display: flex;
+    flex-direction: column;
+    padding-top: 2em;
+    text-align: center;
+    padding-bottom: 1em;
+}
+

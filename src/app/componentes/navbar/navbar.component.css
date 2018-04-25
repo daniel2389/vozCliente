@@ -1,5 +1,5 @@
-.nav-wrapper {
-    background-color: #007f2f;
+/* .nav-wrapper {
+    background-color: #fff;
     padding-left: 18px
 }
 
@@ -13,4 +13,27 @@ a.brand-logo:hover{
 
 .iconBig2{
     font-size: 30px;
+} */
+.posicionElementos{
+display: flex;
+justify-content: space-between;
+padding-top: 0.7em;
+padding-left: 1em;
+padding-right: 1em;
+}
+h6{
+    font-size: 24px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.btn-floating.btn-small{
+    width: 30px;
+    height: 30px;
+}
+.btn-floating.btn-small i{
+    font-size: 1.4rem;
+    line-height: 30px;
+}
+.azul-oscuro{
+    background: rgb(6, 32, 77);
 }

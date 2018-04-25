@@ -1,8 +1,12 @@
 .nav-wrapper {
   background-color: #fff;
   border: 0px;
-  
 }
-.breadcrumb::before{
+
+.breadcrumb::before {
   color: #4caf50;
+}
+
+.tituloPage {
+  font-size: 24px;
 }
